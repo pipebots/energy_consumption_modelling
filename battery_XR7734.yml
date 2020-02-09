@@ -1,0 +1,18 @@
+part_number: Zpower XR7734
+vendor: Zpower
+rechargeable: yes
+chemistry: Silver Zinc
+url: https://www.zpowerbattery.com/rechargeable-microbatteries/
+
+physical_params:
+  weight: 0.625 g
+  height: 3.35 mm
+  width: 7.7 mm
+  depth: 7.7 mm
+
+electrical_params:
+  oc_voltage: 1.86 V
+  const_current: 2 mA
+  pulse_current: 10 mA
+  capacity: 50 mWh
+  derating: 15

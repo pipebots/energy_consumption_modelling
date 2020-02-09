@@ -1,0 +1,10 @@
+part_number: ATmega328p
+vendor: Microchip
+function: Main MCU
+details: AVR 8-bit MCU
+url: https://www.microchip.com
+
+voltage: 3.3 V
+on_current: 1 mA
+standby_current: 1 uA
+sleep_current: 1 nA

@@ -1,0 +1,23 @@
+name: Example scenario
+
+subsystem_include:
+  - subsystem_328p:
+      on_duty_cycle: 0.1
+      standby_duty_cycle: 10
+      time_period: 60 sec
+  - subsystem_wifi:
+      on_duty_cycle: 0.1
+      standby_duty_cycle: 10
+      time_period: 60 sec
+  - subsystem_motors:
+    - subsystem_locomotion:
+        on_duty_cycle: 0.1
+        standby_duty_cycle: 10
+        time_period: 60 sec
+    - subsystem_science:
+        on_duty_cycle: 0.1
+        standby_duty_cycle: 10
+        time_period: 60 sec
+
+battery_include: battery_XR7734
+battery_margin: 10
